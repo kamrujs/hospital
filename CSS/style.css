@@ -1,0 +1,520 @@
+/* ========================================= common CSS Start ========================================= */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a,
+a:hover,
+a:focus {
+    text-decoration: none;
+}
+
+.container {
+    width: 1320px;
+    margin: 0 auto;
+}
+
+.clr {
+    clear: both;
+}
+
+.main {
+    display: flex;
+}
+
+/* ========================================= common CSS End ========================================= */
+
+/* ========================================= topHeader-part CSS start ========================================= */
+
+#topHeader-part {
+    padding: 15px 0;
+}
+
+#topHeader-part .logo {
+    width: 10%;
+}
+
+#topHeader-part .headding {
+    width: 60%;
+}
+
+#topHeader-part .headding h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    color: #3ca2a2;
+    margin-top: 24px;
+}
+
+#topHeader-part .topHeader-number {
+    width: 30%;
+}
+
+#topHeader-part .topHeader-number p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    color: #ca0711;
+    margin-top: 22px;
+    text-align: right;
+}
+
+/* ========================================= topHeader-part CSS End ========================================= */
+
+/* ========================================= Nav-part CSS Start ========================================= */
+
+nav {
+    background: #c70811;
+}
+
+nav .nav-item {
+    width: 85%;
+}
+
+nav .nav-item ul li {
+    display: inline-block;
+}
+
+nav .nav-item ul li a {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    padding: 18px 22px;
+    transition: .4s;
+}
+
+nav .nav-item ul li a:hover {
+    background: #f18d26;
+}
+
+nav .nav-icon {
+    width: 15%;
+    text-align: right;
+}
+
+nav .nav-icon a i {
+    font-size: 20px;
+    width: 32px;
+    height: 32px;
+    background: #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 32px;
+    color: #bf0a11;
+    margin-left: 10px;
+    margin-top: 8px;
+    transition: .4s;
+}
+
+nav .nav-icon a i:hover {
+    background: #f1f1f1;
+}
+
+/* ========================================= Nav-part CSS End ========================================= */
+
+/* ========================================= banner-part CSS start ========================================= */
+
+#banner-part {
+    background: url(../image/banner-img.jpg) no-repeat center;
+    background-size: cover;
+    padding: 75px 0;
+}
+
+#banner-part h4 {
+    font-size: 36px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    color: #215a6d;
+}
+
+#banner-part h2 {
+    font-size: 48px;
+    font-weight: 600;
+    font-style: italic;
+    font-family: 'Open Sans', sans-serif;
+    color: #215a6d;
+}
+
+#banner-part p {
+    width: 285px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    color: #215a6d;
+    line-height: 22px;
+    margin-top: 32px;
+    margin-bottom: 40px;
+}
+
+#banner-part a {
+    padding: 10px 24px;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    background: #92c7a3;
+    display: inline-block;
+    border-radius: 30px;
+    transition: .4s;
+}
+
+#banner-part a:hover {
+    background: #729e80;
+}
+
+/* ========================================= banner-part CSS End ========================================= */
+
+/* ========================================= about-part CSS Start ========================================= */
+#about-part {
+    padding-top: 50px;
+    padding-bottom: 85px;
+}
+
+#about-part .main {
+    justify-content: space-between;
+}
+
+#about-part .item {
+    width: 30%;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 0 45px;
+}
+
+#about-part .item h4 {
+    font-size: 24px;
+    font-weight: 600px;
+    color: #3ca2a2;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 25px;
+}
+
+#about-part .item p {
+    font-size: 13px;
+    font-weight: 400px;
+    color: #215a6d;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+
+/* ========================================= about-part CSS End ========================================= */
+
+/* ========================================= about-part CSS End ========================================= */
+
+#news-video {
+    padding: 30px 0;
+    background: #dfece6;
+}
+
+#news-video .main {
+    justify-content: space-between;
+}
+
+#news-video .news {
+    width: 48%;
+}
+
+#news-video .news .item {
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    border-bottom: 1px solid #56bbc7;
+    position: relative;
+}
+
+#news-video .news .item h4 {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    color: #3ca2a2;
+    line-height: 42px;
+    padding-left: 20px;
+}
+
+
+#news-video .news .item a i {
+    width: 45px;
+    height: 45px;
+    color: #fff;
+    background: red;
+    text-align: center;
+    line-height: 45px;
+    font-size: 23px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+
+
+#news-video .video {
+    width: 48%;
+}
+
+#news-video .video .img {
+    margin-left: 20px;
+    margin-top: -5px;
+}
+
+#news-video .view-link {
+    margin-top: 20px;
+}
+
+/* ========================================= about-part CSS End ========================================= */
+
+/* ========================================= service-part CSS start ========================================= */
+#service-part {
+    padding: 65px 0;
+}
+
+#service-part .main {
+    justify-content: space-between;
+}
+
+#service-part .news {
+    width: 30%;
+}
+
+#service-part .news .border {
+    border-bottom: 1px solid #dfece6;
+}
+
+#service-part .news .item h4 {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    color: #3ca2a2;
+    margin-bottom: 5px;
+    margin-top: 30px;
+}
+
+#service-part .news .item p {
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    color: #215a6d;
+    line-height: 20px;
+    margin-bottom: 30px;
+}
+
+#service-part .medical {
+    width: 30%;
+}
+
+#service-part .medical ul li {
+    margin-top: 20px;
+    font-size: 13px;
+    font-weight: 400;
+    color: #3f7080;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#service-part .medical ul li i {
+    margin-right: 8px;
+    font-size: 15px;
+    color: #bf0a11;
+}
+
+#service-part .medical .view-link {
+    margin-top: 66px;
+}
+
+#service-part .gallery {
+    width: 30%;
+}
+
+#service-part .photo img {
+    border: 4px solid #dfece6;
+    margin: 10px;
+}
+
+#service-part .gallery .view-link {
+    margin-top: 52px;
+}
+
+
+/* ========================================= service-part CSS End ========================================= */
+
+/* ========================================= team-part CSS start ========================================= */
+
+#team-part {
+    padding-bottom: 90px;
+}
+
+#team-part .main {
+    justify-content: space-between;
+}
+
+#team-part .team {
+    width: 30%;
+}
+
+#team-part .team h3 {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    color: #3ca2a2;
+    margin-top: 15px;
+}
+
+#team-part .team h5 {
+    font-size: 12px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    color: #a7a7a7;
+    margin: 5px 0;
+}
+
+#team-part .team h4 {
+    font-size: 12px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    color: #dc4850;
+}
+
+/* ========================================= team-part CSS End ========================================= */
+
+/* ========================================= footer-part CSS start ========================================= */
+
+#footer-part {
+    padding-top: 22px;
+    padding-bottom: 30px;
+    background: #222222;
+}
+
+#footer-part .header {
+    margin-bottom: 30px;
+}
+#footer-part .headding h2 {
+    margin-left: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    color: #3ca2a2;
+    margin-top: 24px;
+}
+
+#footer-part .footer .navigation {
+    width: 25%;
+}
+#footer-part .footer .footer-common {
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    color: #3a9999;
+}
+#footer-part .footer .footer-common  ul li {
+    margin-top: 20px;
+}
+#footer-part .footer .footer-common  ul li a  {
+    font-size: 13px;
+    font-weight: 400;
+    color: #c6ded9;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#footer-part .footer .footer-common ul li i {
+    margin-right: 8px;
+    font-size: 15px;
+    color: #bf0a11;
+}
+
+
+#footer-part .footer .service {
+    width: 25%;
+}
+#footer-part .footer .training {
+    width: 25%;
+}
+#footer-part .footer .contact {
+    width: 25%;
+}
+
+
+/* ========================================= footer-part CSS End ========================================= */
+
+/* ========================================= copyright-part CSS start ========================================= */
+
+#copyright{
+    padding: 18px;
+    text-align: center;
+    background: #cf0511;
+}
+#copyright{
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    color:#c6ded9;
+    text-align: center;
+}
+
+
+
+
+
+/* ========================================= copyright-part CSS End ========================================= */
+
+
+
+
+
+
+
+
+
+
+.tittle {
+    position: relative;
+    margin-bottom: 32px;
+}
+
+.tittle h3 {
+    font-size: 29px;
+    font-weight: 600;
+    color: #54818d;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.tittle h3::after {
+    width: 100%;
+    height: 1px;
+    background: #f1f1f1;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    content: "";
+}
+
+.tittle h3::before {
+    width: 65px;
+    height: 2px;
+    background: #ae1010;
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    z-index: 1;
+    content: "";
+}
+
+
+.view-link a {
+    font-size: 14px;
+    font-weight: 400px;
+    color: #3ca2a2;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.view-link a span i {
+    color: #c70811;
+    margin-right: 5px;
+}
